@@ -1,0 +1,12 @@
+#
+# .path - path components to add
+#
+
+# For all linuxes, assume we've got Alereon packages installed
+PATH=$PATH:/opt/alereon/bin
+
+# Assume we have multi
+PATH=$PATH:/usr/ghs/multi/linux86
+
+# Shove it out
+export PATH

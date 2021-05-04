@@ -1,0 +1,21 @@
+#
+# .path - path components to add
+#
+
+# System
+PATH=$PATH:/usr/sbin:/bin:/sbin:/etc
+
+# Local
+PATH=/usr/local/bin:$PATH:/usr/lib/nmh
+
+# Home
+PATH=~akephart/bin:${ARCHDIR}/bin:~akephart/ABE/bin:$PATH
+
+# X11
+PATH=$PATH:/usr/X/bin:/usr/X11R6/bin
+
+# Finally, .
+PATH=$PATH:.
+
+# Shove it out
+export PATH

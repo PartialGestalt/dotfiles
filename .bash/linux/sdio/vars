@@ -1,0 +1,9 @@
+# Generic
+export EDITOR=vim
+
+# Java
+export JAVAVERSION=1.4.2_03
+export JAVADIR=/usr/java/j2sdk$JAVAVERSION
+export CLASSPATH=$JAVADIR/lib:$JAVADIR/jre/lib:$JAVADIR/jre/lib/rt.jar:.:$HOME/build/ady/java/
+
+# Libs

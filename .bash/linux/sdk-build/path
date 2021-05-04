@@ -1,0 +1,21 @@
+#
+# .path - path components to add
+#
+
+# Apps
+
+# Java
+#	SUN
+PATH=$JDK/bin:$JDK/jre/bin:$PATH
+
+# 
+# Multi
+PATH=$PATH:/usr/ghs/multi/linux86
+
+#
+# BitBake
+PATH=$PATH:/data/oe/bitbake/bin
+BBPATH=/data/oe/build:/data/oe/org.openembedded.oz354x
+export BBPATH
+
+export PATH

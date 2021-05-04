@@ -1,0 +1,16 @@
+# Generic
+export EDITOR=vim
+export PRINTER=
+export SDKDIR=$HOME/build/MAC/WUSB_dev/SDK
+
+# Java
+
+# Libs
+export LD_LIBRARY_PATH=$ARCHDIR/lib:/lib:/usr/lib:$LD_LIBRARY_PATH
+export LD_RUN_PATH=$ARCHDIR/lib:/lib:/usr/lib:$LD_RUN_PATH
+
+# Input
+export INPUTRC=~/.inputrc
+
+# Build controls for MAC...unset this to build firmware from tree
+export SKIP_FIRMWARE=true

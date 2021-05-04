@@ -1,0 +1,34 @@
+#
+# .vars - generic variables for shell
+#
+
+# Who am I?
+export USER=`whoami`
+
+# CVS/SVN
+export CVSROOT_SW=:sspi:akephart@cvs.alereon.com:/cvsroot/software
+export CVSROOT=$CVSROOT_SW
+export SVNROOT=svn://orion/proj/sw/repo/proj/trunk
+
+# Builds
+export CC=gcc
+export MAKE=make
+export ABEROOT=/home/akephart/ABE
+export WORKROOT=/home/akephart
+export DESCEND_FAIL_EXIT=1
+
+# Docs
+export MANPATH=/usr/share/man:/usr/local/man:/usr/man:/usr/X/man:/usr/X11R6/man:$HOME/man
+
+# Host info
+export HOSTNAME=`hostname`
+export PS1="[$USER@$HOSTNAME:`pwd`]
+[]-->"
+
+# Printing
+unset PRINTER
+
+# Generic
+export PAGER=less
+export WIDTHMARK="|----+----|----+----|----+----|----+----|----+----|----+----|----+----|----+----|----+----|----+----|----+----|----+----|----+----|----+----|----+----|----+----|----+----"
+export LANG=C

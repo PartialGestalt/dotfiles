@@ -1,0 +1,11 @@
+# Generic
+export EDITOR=vim
+
+# Java
+export JAVA_VERSION=1.5.0
+export JAVA_EXTRAVERSION=_03
+export JDK=/opt/jdk${JAVA_VERSION}${JAVA_EXTRAVERSION}
+export JAVADIR=${JDK}
+export CLASSPATH=$JAVADIR/lib:$JAVADIR/jre/lib:$JAVADIR/jre/lib/rt.jar:.:$HOME/build/ady/java/
+
+# Libs

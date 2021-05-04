@@ -1,0 +1,4 @@
+# Generic
+export EDITOR=vim
+
+# Libs

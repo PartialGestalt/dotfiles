@@ -1,0 +1,15 @@
+#
+# .path - path components to add
+#
+
+# Apps
+
+# Java
+#	SUN
+JDK=/usr/java/j2re1.4.2_04
+PATH=$JDK/bin:$JDK/jre/bin:$PATH
+
+export PATH
+
+## MULTI
+PATH=$PATH:/usr/ghs/multi/linux86

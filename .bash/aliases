@@ -1,0 +1,24 @@
+#
+# Functions
+#
+function _cd {
+	'cd' "$@" && export PS1='[${USER}@${HOSTNAME}:$PWD]
+[]-->'
+}
+
+#
+# Aliases
+#
+alias ls="ls -a"
+alias cd='_cd'
+alias du=du\ -k
+alias eprint='enscript -2r "$@"'
+alias eprint1='enscript -1r -fCourier8 "$@"'
+alias rfcprint='enscript -B -fCourier11 "$@"'
+alias df='df -k'
+alias memall='ps -eal | awk "{print \$NF \" \" \$10}" | sort | awk -f ~akephart/bin/sum.awk | sort -rn | grep -v "defunct" | grep -v "0 CMD"'
+alias adywho='ps -ef |awk "{print \$1}" | sort -u | grep -v UID'
+alias 80='vim -c ":call Eighty()"'
+alias 161='vim -c ":call OneSixtyOne()"'
+#unalias rm
+

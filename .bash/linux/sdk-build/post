@@ -1,0 +1,11 @@
+#
+# linux-specific 'post' script
+#
+
+# Condense paths
+if [ -x $ARCHDIR/bin/condense.$PROF_MACH  ] ; then
+	export PATH=`echo $PATH:. |condense.$PROF_MACH`
+	export LD_LIBRARY_PATH=`echo $LD_LIBRARY_PATH:. | condense.$PROF_MACH`
+	export LD_RUN_PATH=`echo $LD_LIBRARY_PATH:. | condense.$PROF_MACH`
+fi
+

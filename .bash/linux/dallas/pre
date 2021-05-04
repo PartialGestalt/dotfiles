@@ -1,0 +1,4 @@
+#
+# "pre" script for host: dallas
+#
+stty erase 

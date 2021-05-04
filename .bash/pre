@@ -1,0 +1,16 @@
+#
+# universal 'pre' script
+#
+set -o vi
+
+export PS1="[$USER@$HOSTNAME:`pwd`]
+[]-->"
+
+cd /
+umask 002
+cd ~
+
+#if [ "$DISPLAY" != "" ] ; then
+#	xset -c -b r on > /dev/null 2>&1
+#fi
+

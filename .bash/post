@@ -1,0 +1,7 @@
+#
+# universal 'post' script
+#
+
+# Wipe out bogus aliases
+#unalias rm
+#unalias cp

@@ -1,0 +1,25 @@
+#
+# .path - path components to add
+#
+
+# System
+PATH=$PATH:/usr/ccs/bin
+
+# Force ARCHDIR to start
+PATH=$ARCHDIR:$PATH
+
+# Java (we need to supersede /usr/bin/java)
+PATH=$ARCHDIR/jdk1.2.2/jre/bin:$ARCHDIR/jdk1.2.2/bin:$PATH
+PATH=$PATH:$ARCHDIR/lib/javacc/bin
+
+# Wind River VxWorks tornado build env
+PATH=$PATH:/usr/local/wind/host/sun4-solaris2/bin
+
+# Framemaker
+PATH=$PATH:$FMHOME/bin
+
+# MontaVista devkit dirs
+PATH=$PATH:$MVL_DEVKIT_PPC/405/bin:$MVL_DEVKIT_PPC/7xx/bin
+
+# Shove it out
+export PATH

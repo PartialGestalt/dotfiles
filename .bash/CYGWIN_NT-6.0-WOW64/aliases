@@ -1,0 +1,7 @@
+#
+# aliases - extra aliases
+#
+alias ls='ls --color=auto'
+alias ll='ls -al --color=auto'
+alias pushdir='export DIRSTACK=`pwd`:$DIRSTACK'
+alias popdir='cd `echo $DIRSTACK|awk -F: "{print \\$1}"` &&  export DIRSTACK=`echo $DIRSTACK | popstack.awk | sed -e "s/:$//"`'

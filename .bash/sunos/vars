@@ -1,0 +1,22 @@
+#
+# .vars - generic variables for shell
+#
+
+# Loader
+LD_LIBRARY_PATH=$ARCHDIR/lib:/usr/lib
+export LD_LIBRARY_PATH
+LD_RUN_PATH=$ARCHDIR/lib:/usr/lib
+export LD_RUN_PATH
+
+# VxWorks tornado build bits
+export WIND_BASE=/usr/local/wind
+export WIND_HOST_TYPE=sun4-solaris2
+export WIND_REGISTRY=tau
+
+# MontaVista Linux build bits
+export MVL_BASE=$HOME/Arch/sunos/opt/hardhat
+export MVL_DEVKIT_PPC=$MVL_BASE/devkit/ppc
+
+# Framemaker bits
+FMHOME=/v/local.hw/frame6
+export FMHOME

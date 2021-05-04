@@ -1,0 +1,8 @@
+#
+# Linux-generic 'pre' script
+#
+#set -o vi-tabcomplete
+
+# Erase for all Cygwin
+stty erase 
+

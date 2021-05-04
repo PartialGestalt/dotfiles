@@ -1,0 +1,13 @@
+" h : toggle help
+" <Enter> : open file
+" o : open file in new window
+" d : delete entry
+" q : close this window
+~/build/MAC/WUSB_dev/SDK/smstub/softmacstub_dxs.c
+~/build/MAC/WUSB_dev/SDK/smstub/softmacstub_fw.c
+~/build/MAC/apps/Examples/eg_mass/mass.c
+~/build/MAC/WUSB_dev/firmware/App_MAC/macEP0Meth.c
+~/build/MAC/WUSB_dev/firmware/App_MAC/macEP0Tbls.c
+~/build/MAC/WUSB_dev/SDK/platform/linux-x86/LKM/alereon-sdk-core.spec.in
+~/build/MAC/WUSB_dev/SDK/platform/linux-x86/LKM/alereon-sdk-core-24.spec.in
+~/.vim/doc/vimcommander.txt
