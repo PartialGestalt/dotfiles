@@ -1,7 +1,7 @@
 #
 # Functions
 #
-function _cd {
+function _mycd {
 	'cd' "$@" && export PS1='[${USER}@${HOSTNAME}:$PWD]
 []-->'
 }
@@ -10,7 +10,7 @@ function _cd {
 # Aliases
 #
 alias ls="ls -a"
-alias cd='_cd'
+alias cd='_mycd'
 alias du=du\ -k
 alias eprint='enscript -2r "$@"'
 alias eprint1='enscript -1r -fCourier8 "$@"'
